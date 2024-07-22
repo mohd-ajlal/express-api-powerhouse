@@ -34,9 +34,23 @@ A powerful backend API built with Express.js, PostgreSQL, Prisma, Redis, Nodemai
 
 ## Installation
 
--Clone the repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/mohd-ajlal/express-api-powerhouse.git
    cd express-api-powerhouse
-   bash```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+
+3. Set up the environment variables:
+
+    ```bash
+    cp .env.example .env
+
+4. Configure the database:
+
+    ```bash
+    npx prisma migrate dev
